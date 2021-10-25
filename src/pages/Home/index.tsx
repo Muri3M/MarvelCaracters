@@ -56,7 +56,6 @@ const Home: React.FC = () => {
 
   function handleLoadMore() {
     load();
-    console.log(characters);
   }
 
   const characters: readonly MarvelCharacter[] = useSelector(
@@ -70,7 +69,6 @@ const Home: React.FC = () => {
   }, [search]);
 
   function handleSearchLoadMore() {
-    console.log(searchOffSet);
     setSearchOffSet(searchOffSet + 10);
     searchCharacter();
   }

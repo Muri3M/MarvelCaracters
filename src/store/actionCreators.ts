@@ -78,7 +78,6 @@ export const selectCharacter = (
   place: string
 ) => {
   return (dispatch: any) => {
-    console.log(character);
     dispatch({
       type: actionTypes.SELECT_CHARACTER,
       payload: character,
@@ -92,7 +91,6 @@ export const updateCharacter = (
   place: string
 ) => {
   return (dispatch: any) => {
-    console.log(character);
     if (place === 'Load') {
       dispatch({
         type: actionTypes.EDIT_LOAD_CHARACTERS,

@@ -1,9 +1,9 @@
-# MarvelCaracters
+# Marvel Caracters
 
 
-Instalando MarvelCaracters
+Instalando Marvel Caracters
 
-Para instalar o MarvelCaracters list basta rodar o comando:
+Para instalar o Marvel Caracters list basta rodar o comando:
 
   ```sh
   yarn install

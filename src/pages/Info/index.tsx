@@ -58,7 +58,6 @@ const Info: React.FC = () => {
 
   useEffect(() => {
     if (character !== undefined && character !== null) {
-      console.log(character);
       edit();
     }
   }, [characterEdit]);
@@ -97,8 +96,6 @@ const Info: React.FC = () => {
     }
     toggleDescription();
   };
-
-  console.log(errors.Description);
 
   return (
     <>
